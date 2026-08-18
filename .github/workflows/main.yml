@@ -14,7 +14,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -q CSC_Auto_Save_Proper_Android_Project.zip -d project
+          unzip -q CSC_Auto_Save_Final.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
